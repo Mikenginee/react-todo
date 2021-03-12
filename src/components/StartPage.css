@@ -52,7 +52,7 @@
   }
   
   .nav-links {
-    color: black;
+    /* color: black; */
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -109,15 +109,20 @@
       z-index: 1;
     }
 
-    .nav-menu.active .nav-links {
+    /* .nav-menu.active .nav-links {
         color:white;
-    }
+    } */
   
+    .nav-item--mobile {
+      color:black;
+    }
+
     .nav-links {
       text-align: center;
       padding: 32px;
       width: 100%;
       display: table;
+      color:white;
     }
   
     .nav-links:hover {

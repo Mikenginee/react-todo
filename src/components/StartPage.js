@@ -24,17 +24,17 @@ function StartPage() {
 
                 </div>
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-                    <li className='nav-item'>
+                    <li className='nav-item nav-item--mobile'>
                         <NavLink to='/' className='nav-links navItem' onClick={closeMobileMenu}>
                             Home
                         </NavLink>
                     </li>
-                    <li className='nav-item'>
+                    <li className='nav-item nav-item--mobile'>
                         <NavLink to='/main' className='nav-links navItem' onClick={closeMobileMenu}>
                             Main
                         </NavLink>
                     </li>
-                    <li className='nav-item'>
+                    <li className='nav-item nav-item--mobile'>
                         <NavLink to='/favourites' className='nav-links navItem' onClick={closeMobileMenu}>
                             Favourites
                         </NavLink>
