@@ -33,7 +33,11 @@ const Main = () => {
                     if (!todo.favourite) {
                         return <TodoItem text={todo.text} key={todo.id} id={todo.id} completed={todo.completed} />
                     }
-                }) : <div>No todos yet, let's get started!</div>}
+                    else {
+                        return null
+                    }
+                })
+                    : <div>No todos yet, let's get started!</div>}
             </div>
             <div className={styles.button} onClick={deleteChecked}>Remove checked</div>
         </div>

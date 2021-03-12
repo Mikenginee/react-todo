@@ -22,6 +22,9 @@ const Favourite = () => {
                     if (todo.favourite) {
                         return <TodoItem text={todo.text} key={todo.id} id={todo.id} completed={todo.completed} />
                     }
+                    else {
+                        return null
+                    }
                 }) : <div>No todos yet, let's get started!</div>}
             </div>
             <div className={styles.button} onClick={deleteChecked}>Remove checked</div>
