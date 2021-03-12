@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-todo/static/css/main.23cdb6b2.chunk.css",
+    "main.js": "/react-todo/static/js/main.f983b74a.chunk.js",
+    "main.js.map": "/react-todo/static/js/main.f983b74a.chunk.js.map",
+    "runtime-main.js": "/react-todo/static/js/runtime-main.078fc095.js",
+    "runtime-main.js.map": "/react-todo/static/js/runtime-main.078fc095.js.map",
+    "static/js/2.b98c0758.chunk.js": "/react-todo/static/js/2.b98c0758.chunk.js",
+    "static/js/2.b98c0758.chunk.js.map": "/react-todo/static/js/2.b98c0758.chunk.js.map",
+    "static/js/3.09271815.chunk.js": "/react-todo/static/js/3.09271815.chunk.js",
+    "static/js/3.09271815.chunk.js.map": "/react-todo/static/js/3.09271815.chunk.js.map",
+    "index.html": "/react-todo/index.html",
+    "static/css/main.23cdb6b2.chunk.css.map": "/react-todo/static/css/main.23cdb6b2.chunk.css.map",
+    "static/js/2.b98c0758.chunk.js.LICENSE.txt": "/react-todo/static/js/2.b98c0758.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/react-todo/static/media/bgmount.9e547042.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.078fc095.js",
+    "static/js/2.b98c0758.chunk.js",
+    "static/css/main.23cdb6b2.chunk.css",
+    "static/js/main.f983b74a.chunk.js"
+  ]
+}
